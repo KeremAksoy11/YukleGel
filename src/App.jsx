@@ -10,7 +10,7 @@ import Services from "./pages/Services";
 function App() {
   return (
     <HelmetProvider>
-      <Router>
+      <Router basename="/YukleGel/">
         <div className="min-h-screen bg-white">
           <Navbar />
           <main>
