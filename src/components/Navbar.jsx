@@ -62,7 +62,7 @@ const Navbar = () => {
           {/* Phone Number */}
           <div className="hidden md:flex items-center space-x-4">
             <a
-              href="tel:05357454997"
+              href="tel:+905357454997"
               className="flex items-center space-x-2 bg-primary-50 px-4 py-2 rounded-lg hover:bg-primary-100 transition-colors duration-200 cursor-pointer"
             >
               <PhoneIcon className="h-5 w-5 text-primary-500" />
@@ -111,7 +111,7 @@ const Navbar = () => {
             ))}
             <div className="px-3 py-2 border-t border-gray-200 mt-4">
               <a
-                href="tel:05357454997"
+                href="tel:+905357454997"
                 className="flex items-center space-x-2 hover:bg-gray-50 p-2 rounded-lg transition-colors duration-200 cursor-pointer"
               >
                 <PhoneIcon className="h-5 w-5 text-primary-500" />

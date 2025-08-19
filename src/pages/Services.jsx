@@ -174,8 +174,8 @@ const Services = () => {
             </p>
 
             <a
-              href="tel:05357454997"
-              className="inline-flex items-center justify-center px-8 py-4 bg-primary-500 text-dark-500 font-semibold rounded-lg hover:bg-primary-600 transition-colors duration-200 shadow-lg"
+              href="tel:+905357454997"
+              className="inline-flex items-center justify-center px-8 py-4 bg-primary-500 text-dark-500 font-semibold rounded-lg hover:bg-primary-600 transition-colors duration-200 shadow-lg cursor-pointer"
             >
               <ClockIcon className="h-5 w-5 mr-2" />
               0541 736 34 34 - 7/24 Hizmet
