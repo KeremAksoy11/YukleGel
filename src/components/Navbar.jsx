@@ -25,13 +25,13 @@ const Navbar = () => {
               <div className="w-12 h-12 bg-dark-500 rounded-full flex items-center justify-center">
                 <img
                   src="/YukleGel/images/MainLogo.jpeg"
-                  alt="Yükle Gel Taksi Logo"
+                  alt="Gel-götür Logo"
                   className="h-full w-full object-contain rounded-full"
                 />
               </div>
               <div className="flex flex-col">
                 <span className="text-xl font-bold text-gray-900">
-                  Yükle Gel Taksi
+                  Gel-Götür
                 </span>
                 <span className="text-sm text-gray-600">
                   Gel-götür hafif yük taşıma hizmeti

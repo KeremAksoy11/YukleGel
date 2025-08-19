@@ -100,7 +100,7 @@ const Home = () => {
         </title>
         <meta
           name="description"
-          content="Gel-götür hafif yük taşıma hizmeti, Yeni Nesil taşıma hizmeti. App uygulamalarında kaybolmayın. Arayın birebir çözüm üretelim. Adresten adrese 2 saatte teslimat."
+          content="Gel-götür hafif yük taşıma hizmeti, Yeni Nesil taşıma hizmeti. Uygulamalar arasında kaybolmayın. Arayın birebir çözüm üretelim. Adresten adrese 2 saatte teslimat."
         />
         <meta
           name="keywords"
@@ -112,7 +112,7 @@ const Home = () => {
         />
         <meta
           property="og:description"
-          content="App uygulamalarında kaybolmayın. Arayın birebir çözüm üretelim. Adresten adrese 2 saatte teslimat ile güvenilir Gel-götür hafif yük taşıma hizmeti."
+          content="Uygulamalar arasında kaybolmayın. Arayın birebir çözüm üretelim. Adresten adrese 2 saatte teslimat ile güvenilir Gel-götür hafif yük taşıma hizmeti."
         />
         <meta property="og:type" content="website" />
       </Helmet>
@@ -136,7 +136,7 @@ const Home = () => {
               </h1>
 
               <p className="text-lg sm:text-xl text-white max-w-2xl">
-                Yeni Nesil taşıma hizmeti. App uygulamalarında kaybolmayın.
+                Yeni Nesil taşıma hizmeti. Uygulamalar arasında kaybolmayın.
                 Arayın birebir çözüm üretelim.
               </p>
 
@@ -258,7 +258,7 @@ const Home = () => {
             Hemen Yük Taksi Çağırın
           </h2>
           <p className="text-xl text-primary-100 mb-8 max-w-2xl mx-auto">
-            App uygulamalarında kaybolmayın. Arayın birebir çözüm üretelim.
+            Uygulamalar arasında kaybolmayın. Arayın birebir çözüm üretelim.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center">

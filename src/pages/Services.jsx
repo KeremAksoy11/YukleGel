@@ -181,7 +181,7 @@ const Services = () => {
               Hizmet Almak İçin Hemen Arayın
             </h2>
             <p className="text-xl text-primary-100 mb-8">
-              App uygulamalarında kaybolmayın. Arayın birebir çözüm üretelim.
+              Uygulamalar arasında kaybolmayın. Arayın birebir çözüm üretelim.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
