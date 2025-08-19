@@ -13,7 +13,7 @@ const Corporate = () => {
     { number: "2018", label: "Kuruluş Yılı" },
     { number: "1000+", label: "Mutlu Müşteri" },
     { number: "50+", label: "Hizmet Verdiğimiz Şehir" },
-    { number: "24/7", label: "Kesintisiz Hizmet" },
+    { number: "7/24", label: "Kesintisiz Hizmet" },
   ];
 
   const values = [

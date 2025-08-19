@@ -1,7 +1,5 @@
-import { ChatBubbleLeftRightIcon } from "@heroicons/react/24/outline";
-
 const WhatsAppButton = () => {
-  const phoneNumber = "905417363434"; // WhatsApp için Türkiye kodu ekli
+  const phoneNumber = "905357454997"; // WhatsApp için Türkiye kodu ekli
   const message = "Merhaba, yük taksi hizmeti hakkında bilgi almak istiyorum.";
 
   const handleWhatsAppClick = () => {
@@ -14,10 +12,14 @@ const WhatsAppButton = () => {
   return (
     <button
       onClick={handleWhatsAppClick}
-      className="fixed bottom-6 right-6 bg-green-500 hover:bg-green-600 text-white p-4 rounded-full shadow-lg transition-all duration-300 hover:scale-110 z-50 group"
+      className="fixed bottom-6 right-6 text-white rounded-full shadow-lg transition-all duration-300 hover:scale-110 z-50 group"
       aria-label="WhatsApp ile iletişime geç"
     >
-      <ChatBubbleLeftRightIcon className="h-6 w-6" />
+      <img
+        src="public/images/whatsapp_logo.png"
+        alt="WhatsApp Logo"
+        className="h-16 w-16 rounded-full"
+      />
 
       {/* Tooltip */}
       <div className="absolute right-full mr-3 top-1/2 transform -translate-y-1/2 bg-gray-900 text-white px-3 py-1 rounded-lg text-sm whitespace-nowrap opacity-0 group-hover:opacity-100 transition-opacity duration-300">

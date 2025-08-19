@@ -12,16 +12,16 @@ const Contact = () => {
     {
       icon: PhoneIcon,
       title: "Telefon",
-      content: "0541 736 34 34",
+      content: "0535 745 49 97",
       description: "7/24 hizmet hattımız",
-      action: "tel:05417363434",
+      action: "tel:05357454997",
     },
     {
       icon: ChatBubbleLeftRightIcon,
       title: "WhatsApp",
-      content: "0541 736 34 34",
+      content: "0535 745 49 97",
       description: "Hızlı iletişim için",
-      action: "https://wa.me/905417363434",
+      action: "https://wa.me/905357454997",
     },
     {
       icon: EnvelopeIcon,
@@ -48,26 +48,26 @@ const Contact = () => {
   return (
     <>
       <Helmet>
-        <title>İletişim - Yükle Gel Taksi</title>
+        <title>İletişim - Gel-götür Hafif Yük Taşıma Hizmeti</title>
         <meta
           name="description"
-          content="Yükle Gel Taksi ile iletişime geçin. 7/24 hizmet hattımız: 0541 736 34 34. WhatsApp, telefon ve e-posta ile ulaşabilirsiniz."
+          content="Yükle Gel Taksi ile iletişime geçin. 7/24 hizmet hattımız: 0535 745 49 97. WhatsApp, telefon ve e-posta ile ulaşabilirsiniz. App uygulamalarında kaybolmayın. Arayın birebir çözüm üretelim. Adresten adrese 2 saatte teslimat ile güvenilir Gel-götür hafif yük taşıma hizmeti."
         />
         <meta
           name="keywords"
-          content="iletişim, telefon, whatsapp, adres, yük taksi iletişim"
+          content="iletişim, telefon, whatsapp, adres, yük taksi iletişim, gel-götür, hafif yük taşıma, yeni nesil taşıma, hızlı teslimat, uygun fiyat nakliye, yük taşıma, güvenli taşıma, uygun ücrette taşıma, acil taşıma, Adalar yük taşıma, Arnavutköy yük taşıma, Ataşehir yük taşıma, Avcılar yük taşıma, Bağcılar yük taşıma, Bahçelievler yük taşıma, Bakırköy yük taşıma, Başakşehir yük taşıma, Bayrampaşa yük taşıma, Beşiktaş yük taşıma, Beykoz yük taşıma, Beylikdüzü yük taşıma, Beyoğlu yük taşıma, Büyükçekmece yük taşıma, Çatalca yük taşıma, Çekmeköy yük taşıma, Esenler yük taşıma, Esenyurt yük taşıma, Eyüpsultan yük taşıma, Fatih yük taşıma, Gaziosmanpaşa yük taşıma, Güngören yük taşıma, Kadıköy yük taşıma, Kağıthane yük taşıma, Kartal yük taşıma, Küçükçekmece yük taşıma, Maltepe yük taşıma, Pendik yük taşıma, Sancaktepe yük taşıma, Sarıyer yük taşıma, Silivri yük taşıma, Sultanbeyli yük taşıma, Sultangazi yük taşıma, Şile yük taşıma, Şişli yük taşıma, Tuzla yük taşıma, Ümraniye yük taşıma, Üsküdar yük taşıma, Zeytinburnu yük taşıma"
         />
       </Helmet>
 
       <div className="pt-20">
         {/* Hero Section */}
-        <section className="bg-gradient-to-br from-primary-50 to-orange-100 py-20">
+        <section className="bg-gradient-to-br from-dark-400 to-dark-600 py-20">
           <div className="container mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center">
-              <h1 className="text-4xl sm:text-5xl font-bold text-gray-900 mb-6">
+              <h1 className="text-4xl sm:text-5xl font-bold text-white mb-6">
                 İletişim
               </h1>
-              <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+              <p className="text-xl text-white max-w-3xl mx-auto">
                 Yük taksi hizmetimiz hakkında bilgi almak veya hemen sipariş
                 vermek için bizimle iletişime geçin. 7/24 hizmetinizdeyiz.
               </p>
@@ -82,9 +82,9 @@ const Contact = () => {
               {contactInfo.map((info, index) => (
                 <div
                   key={index}
-                  className="bg-gradient-to-br from-primary-50 to-orange-50 p-6 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300 text-center group"
+                  className="bg-gradient-to-br from-primary-50 to-primary-50 p-6 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300 text-center group"
                 >
-                  <div className="bg-primary-600 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform duration-200">
+                  <div className="bg-primary-500 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform duration-200">
                     <info.icon className="h-8 w-8 text-white" />
                   </div>
 
@@ -95,7 +95,7 @@ const Contact = () => {
                   {info.action ? (
                     <a
                       href={info.action}
-                      className="text-primary-600 font-semibold text-lg hover:text-primary-700 transition-colors duration-200"
+                      className="text-primary-500 font-semibold text-lg hover:text-primary-600 transition-colors duration-200"
                       target={
                         info.action.startsWith("http") ? "_blank" : undefined
                       }
@@ -139,7 +139,7 @@ const Contact = () => {
               <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                 {/* Phone CTA */}
                 <div className="bg-white p-8 rounded-2xl shadow-lg text-center">
-                  <PhoneIcon className="h-16 w-16 text-primary-600 mx-auto mb-6" />
+                  <PhoneIcon className="h-16 w-16 text-primary-500 mx-auto mb-6" />
                   <h3 className="text-2xl font-bold text-gray-900 mb-4">
                     Hemen Arayın
                   </h3>
@@ -148,17 +148,21 @@ const Contact = () => {
                     arayabilirsiniz.
                   </p>
                   <a
-                    href="tel:05417363434"
-                    className="inline-flex items-center justify-center px-8 py-4 bg-primary-600 text-white font-semibold rounded-lg hover:bg-primary-700 transition-colors duration-200 shadow-lg w-full"
+                    href="tel:05357454997"
+                    className="inline-flex items-center justify-center px-8 py-4 bg-primary-500 text-dark-500 font-semibold rounded-lg hover:bg-primary-600 transition-colors duration-200 shadow-lg w-full"
                   >
                     <PhoneIcon className="h-5 w-5 mr-2" />
-                    0541 736 34 34
+                    0535 745 49 97
                   </a>
                 </div>
 
                 {/* WhatsApp CTA */}
                 <div className="bg-white p-8 rounded-2xl shadow-lg text-center">
-                  <ChatBubbleLeftRightIcon className="h-16 w-16 text-green-600 mx-auto mb-6" />
+                  <img
+                    src="public/images/whatsapp_logo.png"
+                    alt="WhatsApp Logo"
+                    className="h-16 w-16 mx-auto mb-6"
+                  />
                   <h3 className="text-2xl font-bold text-gray-900 mb-4">
                     WhatsApp
                   </h3>
@@ -167,10 +171,10 @@ const Contact = () => {
                     geçebilirsiniz.
                   </p>
                   <a
-                    href="https://wa.me/905417363434"
+                    href="https://wa.me/905357454997"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="inline-flex items-center justify-center px-8 py-4 bg-green-600 text-white font-semibold rounded-lg hover:bg-green-700 transition-colors duration-200 shadow-lg w-full"
+                    className="inline-flex items-center justify-center px-8 py-4 bg-primary-500 text-dark-500 font-semibold rounded-lg hover:bg-primary-600 transition-colors duration-200 shadow-lg w-full"
                   >
                     <ChatBubbleLeftRightIcon className="h-5 w-5 mr-2" />
                     WhatsApp'ta Yaz
@@ -194,9 +198,9 @@ const Contact = () => {
                 </p>
               </div>
 
-              <div className="bg-gradient-to-br from-primary-50 to-orange-50 rounded-2xl p-8">
+              <div className="bg-gradient-to-br from-primary-50 to-primary-50 rounded-2xl p-8">
                 <div className="flex items-center justify-center mb-8">
-                  <ClockIcon className="h-12 w-12 text-primary-600" />
+                  <ClockIcon className="h-12 w-12 text-primary-500" />
                 </div>
 
                 <div className="space-y-4">
@@ -208,7 +212,7 @@ const Contact = () => {
                       <span className="text-gray-900 font-medium">
                         {schedule.day}
                       </span>
-                      <span className="text-primary-600 font-bold">
+                      <span className="text-primary-500 font-bold">
                         {schedule.hours}
                       </span>
                     </div>
