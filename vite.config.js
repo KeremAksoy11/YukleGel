@@ -4,7 +4,7 @@ import { defineConfig } from "vite";
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: "/YukleGel/",
+  base: "/yukle-gel-taksi/",
   build: {
     outDir: "dist",
     assetsDir: "assets",
