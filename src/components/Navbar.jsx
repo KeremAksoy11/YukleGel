@@ -61,7 +61,10 @@ const Navbar = () => {
 
           {/* Phone Number */}
           <div className="hidden md:flex items-center space-x-4">
-            <div className="flex items-center space-x-2 bg-primary-50 px-4 py-2 rounded-lg">
+            <a
+              href="tel:05357454997"
+              className="flex items-center space-x-2 bg-primary-50 px-4 py-2 rounded-lg hover:bg-primary-100 transition-colors duration-200 cursor-pointer"
+            >
               <PhoneIcon className="h-5 w-5 text-primary-500" />
               <div className="flex flex-col">
                 <span className="text-sm font-semibold text-primary-500">
@@ -69,7 +72,7 @@ const Navbar = () => {
                 </span>
                 <span className="text-xs text-gray-600">BİZE ULAŞIN</span>
               </div>
-            </div>
+            </a>
           </div>
 
           {/* Mobile menu button */}
@@ -107,7 +110,10 @@ const Navbar = () => {
               </Link>
             ))}
             <div className="px-3 py-2 border-t border-gray-200 mt-4">
-              <div className="flex items-center space-x-2">
+              <a
+                href="tel:05357454997"
+                className="flex items-center space-x-2 hover:bg-gray-50 p-2 rounded-lg transition-colors duration-200 cursor-pointer"
+              >
                 <PhoneIcon className="h-5 w-5 text-primary-500" />
                 <div>
                   <div className="text-sm font-semibold text-primary-500">
@@ -115,7 +121,7 @@ const Navbar = () => {
                   </div>
                   <div className="text-xs text-gray-600">BİZE ULAŞIN</div>
                 </div>
-              </div>
+              </a>
             </div>
           </div>
         </div>

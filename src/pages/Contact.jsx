@@ -149,7 +149,7 @@ const Contact = () => {
                   </p>
                   <a
                     href="tel:05357454997"
-                    className="inline-flex items-center justify-center px-8 py-4 bg-primary-500 text-dark-500 font-semibold rounded-lg hover:bg-primary-600 transition-colors duration-200 shadow-lg w-full"
+                    className="inline-flex items-center justify-center px-8 py-4 bg-primary-500 text-dark-500 font-semibold rounded-lg hover:bg-primary-600 transition-colors duration-200 shadow-lg w-full cursor-pointer"
                   >
                     <PhoneIcon className="h-5 w-5 mr-2" />
                     0535 745 49 97
