@@ -2,7 +2,6 @@ import {
   ChatBubbleLeftRightIcon,
   ClockIcon,
   CurrencyDollarIcon,
-  MapPinIcon,
   PhoneIcon,
   ShieldCheckIcon,
   TruckIcon,
@@ -151,11 +150,6 @@ const Home = () => {
                   <PhoneIcon className="h-5 w-5 mr-2" />
                   0535 745 49 97
                 </a>
-
-                <button className="inline-flex items-center justify-center px-8 py-4 border-2 border-primary-500 text-primary-500 font-semibold rounded-lg hover:bg-primary-500 hover:text-dark-500 transition-colors duration-200">
-                  <MapPinIcon className="h-5 w-5 mr-2" />
-                  Fiyat Hesapla
-                </button>
               </div>
 
               {/* Quick Stats */}
@@ -190,11 +184,6 @@ const Home = () => {
                     taşımacılık.
                   </p>
                 </div>
-              </div>
-
-              {/* Floating badge */}
-              <div className="absolute -top-4 -right-4 bg-primary-500 text-dark-500 px-4 py-2 rounded-full font-semibold shadow-lg z-20">
-                Fiyat Hesapla
               </div>
             </div>
           </div>
