@@ -159,7 +159,7 @@ const Contact = () => {
                 {/* WhatsApp CTA */}
                 <div className="bg-white p-8 rounded-2xl shadow-lg text-center">
                   <img
-                    src="public/images/whatsapp_logo.png"
+                    src="/YukleGel/images/whatsapp_logo.png"
                     alt="WhatsApp Logo"
                     className="h-16 w-16 mx-auto mb-6"
                   />

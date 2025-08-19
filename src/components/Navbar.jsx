@@ -24,7 +24,7 @@ const Navbar = () => {
             <Link to="/" className="flex items-center space-x-2">
               <div className="w-12 h-12 bg-dark-500 rounded-full flex items-center justify-center">
                 <img
-                  src="public/images/MainLogo.jpeg"
+                  src="/YukleGel/images/MainLogo.jpeg"
                   alt="Yükle Gel Taksi Logo"
                   className="h-full w-full object-contain rounded-full"
                 />

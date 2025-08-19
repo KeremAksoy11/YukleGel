@@ -174,7 +174,7 @@ const Home = () => {
               <div className="relative z-10 bg-white rounded-2xl shadow-2xl p-8 transform rotate-3 hover:rotate-0 transition-transform duration-300">
                 <div className="w-full h-64 bg-gradient-to-br from-primary-200 to-primary-200 rounded-lg flex items-center justify-center">
                   <img
-                    src="public/images/WhatsApp Image 2025-08-18 at 18.30.06.jpeg"
+                    src="/YukleGel/images/WhatsApp Image 2025-08-18 at 18.30.06.jpeg"
                     alt="Gel-götür hafif yük taşıma hizmeti"
                     className="w-full h-full object-cover"
                   />
@@ -247,10 +247,10 @@ const Home = () => {
               <div
                 key={i}
                 className="rounded-lg overflow-hidden shadow-lg transform transition-transform duration-300 hover:scale-105 cursor-pointer flex items-center justify-center"
-                onClick={() => openModal(`public/images/${imageName}`)}
+                onClick={() => openModal(`/YukleGel/images/${imageName}`)}
               >
                 <img
-                  src={`public/images/${imageName}`}
+                  src={`/YukleGel/images/${imageName}`}
                   alt={`Galeri Görseli ${i + 1}`}
                   className="w-full h-96 object-contain"
                 />

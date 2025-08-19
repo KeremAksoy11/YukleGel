@@ -16,7 +16,7 @@ const WhatsAppButton = () => {
       aria-label="WhatsApp ile iletişime geç"
     >
       <img
-        src="public/images/whatsapp_logo.png"
+        src="/YukleGel/images/whatsapp_logo.png"
         alt="WhatsApp Logo"
         className="h-16 w-16 rounded-full"
       />
