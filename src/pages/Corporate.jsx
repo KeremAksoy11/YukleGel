@@ -46,10 +46,10 @@ const Corporate = () => {
   return (
     <>
       <Helmet>
-        <title>Kurumsal - Yükle Gel Taksi Hakkında</title>
+        <title>Kurumsal - Gel-götür Hakkında</title>
         <meta
           name="description"
-          content="Yükle Gel Taksi olarak 2018'den beri yük taksi hizmetinde kalite ve güvenilirlik sağlıyoruz. Misyon, vizyon ve değerlerimizi keşfedin."
+          content="Gel-götür olarak 2018'den beri yük taksi hizmetinde kalite ve güvenilirlik sağlıyoruz. Misyon, vizyon ve değerlerimizi keşfedin."
         />
         <meta
           name="keywords"
@@ -99,14 +99,14 @@ const Corporate = () => {
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
               <div>
                 <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-6">
-                  Yükle Gel Taksi Kimdir?
+                  Gel-götür Kimdir?
                 </h2>
                 <div className="space-y-4 text-gray-600">
                   <p>
-                    Yükle Gel Taksi olarak 2018 yılından bu yana yük
-                    taşımacılığı sektöründe faaliyet gösteriyoruz.
-                    Müşterilerimizin yük taksi ihtiyaçlarını en hızlı, güvenli
-                    ve uygun fiyatla karşılamak amacıyla kurulduk.
+                    Gel-götür olarak 2018 yılından bu yana yük taşımacılığı
+                    sektöründe faaliyet gösteriyoruz. Müşterilerimizin yük taksi
+                    ihtiyaçlarını en hızlı, güvenli ve uygun fiyatla karşılamak
+                    amacıyla kurulduk.
                   </p>
                   <p>
                     Modern araç filomuz ve deneyimli şoför kadromuzla ev

@@ -28,7 +28,7 @@ const Contact = () => {
       title: "E-posta",
       content: "info@yuklegeltaksi.com",
       description: "İş teklifleri için",
-      action: "mailto:info@yuklegeltaksi.com",
+      action: "mailto:info@gel-gotur.com",
     },
     {
       icon: MapPinIcon,
@@ -51,7 +51,7 @@ const Contact = () => {
         <title>İletişim - Gel-götür Hafif Yük Taşıma Hizmeti</title>
         <meta
           name="description"
-          content="Yükle Gel Taksi ile iletişime geçin. 7/24 hizmet hattımız: 0535 745 49 97. WhatsApp, telefon ve e-posta ile ulaşabilirsiniz. Uygulamalar arasında kaybolmayın. Arayın birebir çözüm üretelim. Adresten adrese 2 saatte teslimat ile güvenilir Gel-götür hafif yük taşıma hizmeti."
+          content="Gel-götür ile iletişime geçin. 7/24 hizmet hattımız: 0535 745 49 97. WhatsApp, telefon ve e-posta ile ulaşabilirsiniz. Uygulamalar arasında kaybolmayın. Arayın birebir çözüm üretelim. Adresten adrese 2 saatte teslimat ile güvenilir Gel-götür hafif yük taşıma hizmeti."
         />
         <meta
           name="keywords"
